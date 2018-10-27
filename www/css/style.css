@@ -2,15 +2,14 @@
     box-sizing: border-box;
 }
 body {
-  margin: 0;
+    margin: 0;
 }
 /* Style the header */
 .header {
     background-color: #f1f1f1;
     padding: 20px;
     text-align: center;
-	text-decoration: none;
-	
+    text-decoration: none;
 }
 .topnav {
     overflow-y: hidden;
@@ -18,81 +17,82 @@ body {
     background-color: #2062CE;
 }
 a{
-	color: white;
-	padding: 23px 5px;
-	display:inline-block;
-	text-decoration: none;
-	font-family: Roboto;
-	text-align: center;
-  font-size: 15px;
-	height:60px;
-	width: 140px;
+    color: white;
+    padding: 23px 5px;
+    display:inline-block;
+    text-decoration: none;
+    font-family: Roboto;
+    text-align: center;
+    font-size: 15px;
+    height:60px;
+    width: 140px;
 }
 .topnav a.bus_ticket_link,a.home_link{
-	float: left;
-  padding: 0px;
+    float: left;
+    padding: 0px;
+}
+.topnav  a.profile_link{
+    width: 8%;
 }
 .topnav a.help_link,a.location_link,a.bookings_link,a.profile_link,a.login_link{
-  float: right;
-  padding: 0px;
+    float: right;
+    padding: 0px;
 }
 
 .topnav a:hover{
-	background-color:red;
-	color: white;
-	text-decoration: none;
+    background-color:#2062CE;
+    color: white;
+    text-decoration: none;
 }
 .topnav a:link {
-  background-color:none;
-	color: white;
-	text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
 .topnav a:visited {
-  background-color:none;
-  color: white;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
 .topnav a:active {
-  background-white:red;
-	color: white;
-	text-decoration: none;
+    background-white:red;
+    color: white;
+    text-decoration: none;
 }
 
 .search{
-  background-color: white;
-  position: relative;
-  width: 100%;
-  height: 458px;
-  overflow: visible;
+    background-color: white;
+    position: relative;
+    width: 100%;
+    height: 458px;
+    overflow: visible;
 }
 
 .search img{
- position: absolute;
- left: 0px;
- right: 0px; 
+    position: absolute;
+    left: 0px;
+    right: 0px;
 }
 
 .search input{
-  top: 135px;
-  left: 410px;
-  position: absolute;
-  height: 30px;
-  width: 110px;
-  border-style: none;
+    top: 135px;
+    left: 410px;
+    position: absolute;
+    height: 30px;
+    width: 110px;
+    border-style: none;
 }
 
 .search img#offer_0{
-  position: absolute;
-  top: 320px;
-  left: 362px;
+    position: absolute;
+    top: 320px;
+    left: 362px;
 }
 
 .offers{
-  position: absolute;
-  margin-top: 10px;
-  margin-left: 40px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 40px;
 }
 
 /*{margin:0px; padding:0px; font-family:Helvetica, Arial, sans-serif;}
@@ -100,25 +100,26 @@ a{
 /* Full-width input fields */
 .container input {
     width: 40% ;
-    padding: 12px 20px;
-    margin: 8px 30px;
+    padding: 15px 20px;
+    margin: 8px 40px;
     display: block;
     border: 1px solid #ccc;
     box-sizing: border-box;
-  font-size:16px;
+    font-size:16px;
 }
 
 /* Set a style for all buttons */
 .container button {
     background-color: #2468D6;
     color: white;
-    padding: 14px 20px;
-    margin: 8px 26px;
+    padding: 15px 20px;
+    margin: 8px 40px;
     border: none;
     cursor: pointer;
     width: 40%;
-  font-size:20px;
+    font-size:20px;
 }
+
 .container button:hover {
     opacity: 0.8;
 }
@@ -127,7 +128,7 @@ a{
 .imgcontainer {
     text-align: center;
     margin: 24px 0 12px 0;
-    position: block-inline;
+    position: relative;
 }
 .avatar {
     width: 200px;
@@ -137,7 +138,7 @@ a{
 
 /* The Modal (background) */
 .modal {
-  display:none;
+    display:none;
     position: fixed;
     z-index: 1;
     left: 0;
@@ -153,8 +154,8 @@ a{
     background-color: #fefefe;
     margin: 4% auto 15% auto;
     border: 1px solid #888;
-    width: 40%; 
-  padding-bottom: 30px;
+    width: 40%;
+    padding-bottom: 30px;
 }
 
 /* The Close Button (x) */
@@ -177,11 +178,11 @@ a{
 }
 
 .container a{
-  text-align: left;
+    text-align: left;
 }
 
 @keyframes zoom {
-    from {transform: scale(0)} 
+    from {transform: scale(0)}
     to {transform: scale(1)}
 }
 
